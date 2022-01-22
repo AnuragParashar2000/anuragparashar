@@ -116,6 +116,12 @@ html.night .switch-wrapper .sun {
   height: 17px;
 }
 
+#gitimage{
+  width: 15%;
+  margin-top: 14px;
+  padding-top: 24px;
+}
+
 .switch-wrapper .toggle-wrapper {
   margin: 10px;
 }
@@ -147,11 +153,11 @@ html.night .switch-wrapper .sun {
 .switch-wrapper .toggle-wrapper label:after {
   content: "";
   position: absolute;
-  left: 2px;
-  top: 1px;
+  left: 0.5px;
+  top: 1.5px;
   width: 20px;
   height: 22px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   border-radius: 40px;
   transition: 0.3s;
 }
@@ -239,7 +245,7 @@ body.night .switch-wrapper a {
   color: #007bff;
   font-size: 50px;
   animation-name: opacity1;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
@@ -590,7 +596,7 @@ a.experience .job .job_company {
 
 .project_links img {
   margin-top: 2%;
-  width: 6%;
+  width: 8%;
 }
 
 details summary::-webkit-details-marker {
