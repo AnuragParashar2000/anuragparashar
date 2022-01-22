@@ -157,7 +157,7 @@ html.night .switch-wrapper .sun {
   top: 1.5px;
   width: 20px;
   height: 22px;
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   border-radius: 40px;
   transition: 0.3s;
 }
